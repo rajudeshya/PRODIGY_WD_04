@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udeshya Raj | Web Developer</title>
+   <link rel="stylesheet" href="styles.css">
+  <link href="shortcut icon" rel="stylesheet">
+ 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header.hero {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .logo span {
+      color: #efefec;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .nav-links li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero-content {
+      margin-top: 2rem;
+    }
+
+    .profile-img {
+      width: 30px;
+      height:30px;
+      border-radius: 25%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid white;
+    }
+
+    .hero-content h2 {
+      font-size: 2rem;
+    }
+
+    .hero-content span {
+      color: #ffe600;
+    }
+
+    .hero-content p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      background-color: white;
+      color: #333;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about p {
+      margin-bottom: 2rem;
+    }
+
+    .details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .details div ul {
+      list-style: disc;
+      padding-left: 1.2rem;
+    }
+
+    .projects .project-list {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .project {
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .project h3 {
+      color: #4facfe;
+    }
+
+    .contact form {
+      display: grid;
+      gap: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .contact input, .contact textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background-color: #4facfe;
+      color: white;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media(max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .details {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <nav>
+      <h1 class="logo">Udeshya<span>Raj</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content" id="home">
+      <img src="Udeshya.jpg.png" alt="Udeshya Raj" >
+      <h2>Hi, I'm <span>Udeshya Raj</span></h2>
+      <p>A Passionate Web Developer crafting responsive and interactive websites.</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Udeshya Raj, a web developer from Hajipur, Bihar.
+       I specialize in building responsive, user-friendly websites using HTML, CSS, JavaScript, and more. 
+      I'm currently pursuing B.Tech in Computer Engineering, where I'm actively working on real-world projects and enhancing my skills every day.</p>
+    <div class="details">
+      <div>
+        <h3>Education</h3>
+        <ul>
+          <li>B.Tech in Computer Engineering - Silver Oak University</li>
+          <li>Intermediate - GVS School</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>Bootstrap, jQuery</li>
+          <li>Git, GitHub</li>
+          <li>Figma, UI/UX Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Stopwatch Web App</h3>
+        <p>A sleek and functional stopwatch with lap timing and responsive UI.</p>
+        <a href="https://github.com/rajudeshya/PRODIGY_WD_02/">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Responsive landing page</h3>
+        <p>Wireframe and interactive UI for a virtual reality-based language learning platform.</p>
+        <a href="https://rajudeshya.github.io/PRODIGY_WD_01/">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Tic-Tac-Toe game</h3>
+        <p>Tic Tac Toe is a quick game of Xs and Os aiming for three in a row.</p>
+        <a href="https://github.com/rajudeshya/PRODIGY_WD_03/">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Udeshya Raj. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
