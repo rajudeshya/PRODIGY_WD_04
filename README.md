@@ -1,9 +1,8 @@
 🌐 Udeshya Raj – Portfolio Website
 
 Welcome to my personal portfolio website, a sleek and responsive digital space built to showcase who I am, what I do, and what I’ve created as a passionate web developer! 👨‍💻✨
-
-
 🚀 Live Demo
+
 👉  https://rajudeshya.github.io/PRODIGY_WD_04/
 
 📌 Highlights
@@ -27,14 +26,20 @@ JavaScript	Interactivity and form logic
 GitHub	Hosting & version control
 
 📂 Folder Structure
+
 css
+
 Copy
+
 Edit
-📁 portfolio/
+
+📁 portfolio
+
 ├── 📄 index.html         → Main HTML file
 ├── 🎨 styles.css         → All custom styles
 ├── 💡 script.js          → JS for interacti
 └── 📄 README.md           → This file
+
 👨‍💻 About Me
 
 Hi! I’m Udeshya Raj, a web developer from Hajipur, Bihar.
