@@ -1,4 +1,5 @@
 🌐 Udeshya Raj – Portfolio Website
+
 Welcome to my personal portfolio website, a sleek and responsive digital space built to showcase who I am, what I do, and what I’ve created as a passionate web developer! 👨‍💻✨
 
 
@@ -32,19 +33,16 @@ Edit
 📁 portfolio/
 ├── 📄 index.html         → Main HTML file
 ├── 🎨 styles.css         → All custom styles
-├── 💡 script.js          → JS for interactivity
-├── 🖼️ assets/             → Profile image & icons
+├── 💡 script.js          → JS for interacti
 └── 📄 README.md           → This file
 👨‍💻 About Me
+
 Hi! I’m Udeshya Raj, a web developer from Hajipur, Bihar.
 Currently pursuing B.Tech in Computer Engineering at Silver Oak University.
 I enjoy building clean and creative websites with a focus on responsiveness and user experience. 🌟
 
-📬 Contact Me
-Got a question or project idea? Let’s connect!
 
-✉️ udeshya@example.com
-🌐 GitHub Profile
+🌐 GitHub Profile :https://github.com/rajudeshya
 
 📣 Credits
 Designed & developed by Udeshya Raj
